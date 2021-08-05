@@ -113,9 +113,42 @@
   margin-left: 0.5rem;
 }
 
+.title-homepage {
+  color: blue;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
 }
+
+/* .imageTest {
+  background: #f6f7f8;
+  background-image: linear-gradient(
+    to right,
+    #f6f7f8 0%,
+    #edeef1 20%,
+    #f6f7f8 40%,
+    #f6f7f8 100%
+  );
+  background-size: 800px 200px;
+  display: inline-block;
+  position: relative;
+  -webkit-animation: animation-oh6j69 1s linear infinite;
+  animation: animation-oh6j69 1s linear infinite;
+  width: 100%;
+  padding-bottom: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+@keyframes animation-oh6j69 {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+} */
